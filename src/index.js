@@ -4,9 +4,9 @@ import { Provider } from 'react-redux'
 import thunk from 'redux-thunk';
 import devTools from 'remote-redux-devtools';
 import { createStore, applyMiddleware, compose } from 'redux';
-import App from './App.js';
+import App from './components/App';
 import './index.css';
-import counter from './counting';
+import counter from './reducers/r_index';
 
 //add enhancer for development purposes
 const enhancer = compose(

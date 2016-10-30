@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
+import '../App.css';
 import VisibleCounter from './Counter'
+import VirtualMachine from './vm'
 
 // main component
 const App = () => (
@@ -12,6 +13,7 @@ const App = () => (
         </div>
         <br/>
         <VisibleCounter />
+        <VirtualMachine />
      </div>
   )
 
